@@ -4,6 +4,11 @@
 
     JJ: This is a very cool approach to a reset. It's a very hard reset in the sense that you're reseting almost everything and then going and back and using the "revert" keyword to restore select minimal styles.
     
+    Sources: 
+    https://css-tricks.com/an-interview-with-elad-shechter-on-the-new-css-reset/
+    https://elad.medium.com/understanding-the-initial-inherit-and-unset-css-keywords-2d70b7121695
+
+    
 ***/
 
 /*
@@ -28,6 +33,7 @@ a, button {
 }
 
 /* Remove list styles (bullets/numbers) */
+/* It's woreth mentioning that you should use area-style: list to ensure that screen readers get the semantics right.
 ol, ul, menu {
     list-style: none;
 }
