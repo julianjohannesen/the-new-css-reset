@@ -1,6 +1,9 @@
 /***
     The new CSS reset - version 1.5.1 (last updated 1.3.2022)
     GitHub page: https://github.com/elad2412/the-new-css-reset
+
+    JJ: This is a very cool approach to a reset. It's a very hard reset in the sense that you're reseting almost everything and then going and back and using the "revert" keyword to restore select minimal styles.
+    
 ***/
 
 /*
